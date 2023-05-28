@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"checker.h"
+#include "../../includes/checker.h"
 
 int	check_valid_move_next(char *new_elt)
 {

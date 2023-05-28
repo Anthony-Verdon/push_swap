@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"../push_swap.h"
+#include "../../../includes/push_swap.h"
 
 int	calculate_sub_pivot(t_double_list **head_a)
 {

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"push_swap.h"
+#include "../../includes/push_swap.h"
 
 int	list_sorted(t_double_list **head)
 {

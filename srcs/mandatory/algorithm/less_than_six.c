@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"../push_swap.h"
+#include "../../../includes/push_swap.h"
 
 void	for_two(t_double_list **head_a, t_double_list **head_b,
 		t_double_list **instructions)

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "checker.h"
+#include "../../includes/checker.h"
 
 int	list_sorted(t_double_list **head)
 {

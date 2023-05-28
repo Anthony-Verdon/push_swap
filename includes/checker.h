@@ -13,7 +13,7 @@
 #ifndef CHECKER_H
 # define CHECKER_H
 
-# include "../push_swap.h"
+# include "push_swap.h"
 
 int		launch_move(t_double_list **head_a, t_double_list **head_b,
 			t_double_list **instructions);

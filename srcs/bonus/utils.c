@@ -1,23 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   rules_3.c                                          :+:      :+:    :+:   */
+/*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: averdon <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/25 16:57:13 by averdon           #+#    #+#             */
-/*   Updated: 2022/11/25 16:57:52 by averdon          ###   ########.fr       */
+/*   Created: 2022/11/06 20:30:05 by averdon           #+#    #+#             */
+/*   Updated: 2022/11/25 16:43:04 by averdon          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../../includes/checker.h"
 
-int	ss(t_double_list **head_a, t_double_list **head_b,
-		t_double_list **instructions)
+void	del(void *content)
 {
-	if (*head_a)
-		call_sa(head_a, head_b, instructions);
-	if (*head_b)
-		call_sb(head_a, head_b, instructions);
-	return (0);
+	free(content);
+	content = NULL;
 }

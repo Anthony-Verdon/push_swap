@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"../../push_swap.h"
+#include "../../../../includes/push_swap.h"
 
 int	search_min(t_double_list *head)
 {

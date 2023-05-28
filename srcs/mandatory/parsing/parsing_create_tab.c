@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"../push_swap.h"
+#include "../../../includes/push_swap.h"
 
 char	**complete_tab(char **tab_1, char **tab_new_elements, char **new_tab)
 {

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"checker.h"
+#include "../../includes/checker.h"
 
 int	launch_ss(t_double_list **head_a, t_double_list **head_b)
 {

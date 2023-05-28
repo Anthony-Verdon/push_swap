@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"checker.h"
+#include "../../includes/checker.h"
 
 int	launch_move_next_next_next(t_double_list **head_a, t_double_list **head_b,
 		t_double_list **instructions)

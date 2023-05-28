@@ -6,7 +6,7 @@
 /*   By: averdon <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/20 17:49:45 by averdon           #+#    #+#             */
-/*   Updated: 2022/11/11 15:21:17 by averdon          ###   ########.fr       */
+/*   Updated: 2023/05/28 14:04:29 by averdon          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,9 @@
 # include<limits.h>
 # include<stdlib.h>
 # include<unistd.h>
-# include"sources/libft/libft.h"
-# include"sources/libft/ft_printf/ft_printf.h"
-# include"sources/srcs_double_list/ft_double_list.h"
+# include"libraries/libft/libft.h"
+# include"libraries/libft/ft_printf/ft_printf.h"
+# include"libraries/srcs_double_list/ft_double_list.h"
 
 typedef struct s_array_int{
 	int	*array;
