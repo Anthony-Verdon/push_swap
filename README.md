@@ -47,7 +47,7 @@ ARGS=`shuf -i 1-100 -n50`; ./push_swap $ARGS | ./checker $ARGS
 
 ## Friends work
 
-My friend Théo Guerin (login 42 : tguerin, Github account : https://github.com/TheoGuerin64) made a website to simulate this project, take a look ! https://theoguerin64.github.io/push-swap-lab.github.io/
+My friend Théo Guerin (login 42 : tguerin, Github account : https://github.com/TheoGuerin64) made a website to simulate this project (https://theoguerin64.github.io/push-swap-lab.github.io/) and a visualizer (https://github.com/TheoGuerin64/push-swap-visualizer), take a look !
 
 ## Find a bug ?
 
